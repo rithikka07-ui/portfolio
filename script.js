@@ -10,7 +10,7 @@ document.querySelectorAll('.nav-links a').forEach(a =>
 );
 
 // Rolling hero word
-const words = ['Embedded Systems', 'IoT', 'VLSI', 'Verilog'];
+const words = ['Embedded Systems', 'IoT', 'VLSI'];
 let wi = 0;
 const rollEl = document.getElementById('rollWord');
 if (rollEl) {
@@ -60,5 +60,5 @@ form?.addEventListener('submit', (e) => {
   const message = data.get('message');
   const subject = encodeURIComponent(`Portfolio contact from ${name}`);
   const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-  window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:rithikka07@gmail.com?subject=${subject}&body=${body}`;
 });
